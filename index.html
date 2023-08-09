@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>happy hacktober</title>
+
+  <script>
+     function fn1() {
+       var str = document.getElementById('text1').value;
+       alert('confirm email'+ str);
+     }
+    </script>
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/hacktoberfest.png" alt="hacktober">
+  <h2>registration form</h2>
+  <form action="Message.html" method="GET">
+   <div>
+    <span class="info">full game</span>&nbsp;
+    <input class="details" type="text" name="Full Name" placeholder="enter" required>
+
+
+
+   </div>
+   <div>
+    <span class="info">email</span>&emsp;&ensp; 
+    <input id="text1" class="details" type="email" name="email" placeholder="enter" required />
+
+   </div>
+   <div style="font-size: 28px;">
+    <span class="info">gender</span>&nbsp;
+    <input type="radio" name="gender" value="male">male</input>
+    <input type="radio" name="gender" value="female">female</input>
+    <input type="radio" name="gender" value="other">other</input>
+   </div>
+   <div>
+    <input class="button" onclick="fn1()" id="btn1" type="submit" value="submit">
+      
+   </div>
+
+  </form>
+</body>
+</html>
